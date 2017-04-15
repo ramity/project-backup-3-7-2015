@@ -1,0 +1,1 @@
+function createChart(elm,data){window.myBar=new Chart(document.getElementById(elm).getContext("2d")).Bar(data,{responsive:false});}
